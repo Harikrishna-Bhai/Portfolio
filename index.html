@@ -3,131 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variganti Harikrishna | Banking Professional</title>
+    <title>Variganti Harikrishna | Banking Professional Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo">VH</a>
+            <div class="logo">
+                <h2>V<span>H</span></h2>
+            </div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <button class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-text">
-                <h1>Variganti Harikrishna</h1>
-                <h2>Banking & Financial Services Professional</h2>
-                <p class="tagline">Motivated banking professional with expertise in customer service, risk management, and financial solutions.</p>
-                <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i> 3-49/17 Pochampally, Peddavangara, Mahabubabad - 506317</p>
-                    <p><i class="fas fa-phone"></i> 9666066399</p>
-                    <p><i class="fas fa-envelope"></i> kittugoud110597@gmail.com</p>
-                </div>
-                <a href="#contact" class="btn">Contact Me</a>
-                <a href="#experience" class="btn secondary">View Experience</a>
+ <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h4 class="hero-subtitle">Hello, I'm</h4>
+            <h1 class="hero-title">Variganti Harikrishna</h1>
+            <h3 class="hero-role">Banking & Financial Services Professional</h3>
+            <p class="hero-description">Motivated banking professional with strong experience in customer service, risk management and financial solutions.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <a href="#experience" class="btn btn-secondary">View Experience</a>
             </div>
-            <div class="hero-image">
-                <div class="image-placeholder">
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <div class="profile-img-placeholder">
                     <i class="fas fa-user-tie"></i>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- About/Objective Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">Objective</h2>
-            <div class="objective">
-                <p>Motivated banking professional with strong experience in customer service, risk management and financial services. Seeking a role in the banking sector where I can apply my skills to strengthen customer relationships and deliver exceptional financial solutions.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Location</h4>
+                            <p>3-49/17 Pochampally, Mdl: Peddavangara, Dist: Mahabubabad<br>Pincode: 506317</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Contact</h4>
+                            <p>Mobile: 9666066399</p>
+                            <p>Email: kittugoud110597@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Objective</h4>
+                            <p>Seeking a role in the banking sector where I can apply my skills to strengthen customer relationships and deliver exceptional financial solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am a dedicated banking professional with expertise in customer relationship management, financial services, and operational excellence. My experience spans across leading financial institutions where I have successfully managed NRI portfolios, implemented efficient processes, and enhanced customer satisfaction.</p>
+                    <p>My approach combines technical knowledge with strong interpersonal skills to deliver exceptional results in fast-paced banking environments.</p>
+                    <div class="certification">
+                        <h4><i class="fas fa-certificate"></i> Certification</h4>
+                        <p>Association of Mutual Funds in India (AMFI)</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <h2 class="section-title">Work <span>Experience</span></h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Turito India Pvt. Ltd</h3>
-                        <span class="date">Relationship Manager – NRI Education Program</span>
-                    </div>
+                    <div class="timeline-date">May 2024 - May 2025</div>
                     <div class="timeline-content">
-                        <h4>Key Responsibilities</h4>
+                        <h3>Senior Executive</h3>
+                        <h4>IndiaMart InterMesh Ltd</h4>
                         <ul>
-                            <li>Managed relationships with more than 1000 NRI students and parents through centralized support channels.</li>
-                            <li>Coordinated onboarding, orientation and personalized guidance for new students.</li>
-                            <li>Developed renewal strategies focused on communication, value delivery and retention.</li>
+                            <li>Handled daily operational activities and ensured adherence to company standards</li>
+                            <li>Coordinated with internal teams and external partners for timely completion of tasks</li>
+                            <li>Prepared reports, documentation and performance summaries for management review</li>
+                            <li>Managed escalations and improved customer satisfaction through quick issue resolution</li>
+                            <li>Trained and guided junior staff to boost productivity and process compliance</li>
                         </ul>
-                        <h4>Key Achievements</h4>
-                        <ul>
-                            <li>Cut query response time by 50 percent through a dedicated helpdesk system.</li>
-                            <li>Improved onboarding satisfaction by 30 percent by introducing a buddy support system.</li>
-                            <li>Increased program renewal rates by 20 percent through proactive engagement strategies.</li>
-                        </ul>
-                        <div class="tools">
-                            <span class="tool-tag">Salesforce</span>
-                            <span class="tool-tag">HubSpot</span>
-                            <span class="tool-tag">Slack</span>
-                            <span class="tool-tag">Zoom</span>
-                            <span class="tool-tag">Microsoft Teams</span>
-                            <span class="tool-tag">Analytical Tools</span>
+                        <div class="experience-tags">
+                            <span class="tag">Operations</span>
+                            <span class="tag">Team Management</span>
+                            <span class="tag">Reporting</span>
                         </div>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>IndiaMart InterMesh Ltd</h3>
-                        <span class="date">Senior Executive | 23 May 2024 to 29 May 2025</span>
-                    </div>
+                    <div class="timeline-date">Oct 2022 - Jan 2024</div>
                     <div class="timeline-content">
+                        <h3>E-Relationship Manager – NRI | Assistant Manager</h3>
+                        <h4>ICICI Bank Ltd</h4>
                         <ul>
-                            <li>Handled daily operational activities and ensured adherence to company standards.</li>
-                            <li>Coordinated with internal teams and external partners for timely completion of tasks.</li>
-                            <li>Prepared reports, documentation and performance summaries for management review.</li>
-                            <li>Managed escalations and improved customer satisfaction through quick issue resolution.</li>
-                            <li>Trained and guided junior staff to boost productivity and process compliance.</li>
-                            <li>Monitored KPIs and suggested improvements to enhance operational efficiency.</li>
-                            <li>Supported budgeting, forecasting and performance analysis activities.</li>
-                            <li>Maintained CRM records and generated sales performance reports.</li>
+                            <li>Built strong relationships with NRI customers through virtual engagement and personalized support</li>
+                            <li>Assisted NRIs with home loans, fixed deposits and other financial solutions</li>
+                            <li>Ensured smooth and secure remittances, fund transfers and investment-related processes</li>
+                            <li>Supported clients with new account openings and ongoing banking assistance</li>
+                            <li>Acted as a trusted advisor by guiding customers toward long term financial stability</li>
                         </ul>
+                        <div class="experience-tags">
+                            <span class="tag">NRI Banking</span>
+                            <span class="tag">Financial Advisory</span>
+                            <span class="tag">Relationship Management</span>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>ICICI Bank Ltd</h3>
-                        <span class="date">E-Relationship Manager – NRI | Assistant Manager | 17 Oct 2022 to 30 Dec 2023 and 16 Jan 2024 to 21 Jan 2024</span>
-                    </div>
+                    <div class="timeline-date">Relationship Manager Role</div>
                     <div class="timeline-content">
+                        <h3>Relationship Manager – NRI Education Program</h3>
+                        <h4>Turito India Pvt. Ltd</h4>
                         <ul>
-                            <li>Built strong relationships with NRI customers through virtual engagement and personalized support.</li>
-                            <li>Assisted NRIs with home loans, fixed deposits and other financial solutions to help them make informed decisions.</li>
-                            <li>Ensured smooth and secure remittances, fund transfers and investment-related processes.</li>
-                            <li>Supported clients with new account openings and ongoing banking assistance.</li>
-                            <li>Acted as a trusted advisor by guiding customers toward long term financial stability and growth.</li>
+                            <li>Managed relationships with more than 1000 NRI students and parents through centralized support channels</li>
+                            <li>Coordinated onboarding, orientation and personalized guidance for new students</li>
+                            <li>Developed renewal strategies focused on communication, value delivery and retention</li>
                         </ul>
+                        <h5>Key Achievements:</h5>
+                        <ul class="achievements">
+                            <li>Cut query response time by 50% through a dedicated helpdesk system</li>
+                            <li>Improved onboarding satisfaction by 30% by introducing a buddy support system</li>
+                            <li>Increased program renewal rates by 20% through proactive engagement strategies</li>
+                        </ul>
+                        <div class="experience-tags">
+                            <span class="tag">Student Relations</span>
+                            <span class="tag">Retention Strategy</span>
+                            <span class="tag">CRM Tools</span>
+                        </div>
+                        <div class="tools-used">
+                            <h5>Tools Used:</h5>
+                            <div class="tools">
+                                <span><i class="fab fa-salesforce"></i> Salesforce</span>
+                                <span><i class="fas fa-cogs"></i> HubSpot</span>
+                                <span><i class="fab fa-slack"></i> Slack</span>
+                                <span><i class="fas fa-video"></i> Zoom</span>
+                                <span><i class="fab fa-microsoft"></i> Teams</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,95 +191,131 @@
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="section">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
+    <section id="education" class="education">
+        <div class="section-container">
+            <h2 class="section-title">Education <span>Background</span></h2>
             <div class="education-grid">
                 <div class="education-card">
-                    <div class="edu-icon">
+                    <div class="education-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
                     <h3>MBA (Marketing)</h3>
-                    <p class="institution">JNTUH</p>
-                    <p class="grade">CGPA: 6.9</p>
+                    <h4>JNTUH</h4>
+                    <div class="education-score">
+                        <span>CGPA: 6.9</span>
+                    </div>
                 </div>
                 
                 <div class="education-card">
-                    <div class="edu-icon">
+                    <div class="education-icon">
                         <i class="fas fa-university"></i>
                     </div>
                     <h3>B.Com (Computer Applications)</h3>
-                    <p class="institution">Kakatiya University</p>
-                    <p class="grade">CGPA: 7.5</p>
+                    <h4>Kakatiya University</h4>
+                    <div class="education-score">
+                        <span>CGPA: 7.5</span>
+                    </div>
                 </div>
                 
                 <div class="education-card">
-                    <div class="edu-icon">
+                    <div class="education-icon">
                         <i class="fas fa-school"></i>
                     </div>
                     <h3>Intermediate MEC</h3>
-                    <p class="institution">Sri Medha Junior College</p>
-                    <p class="grade">CGPA: 8.3</p>
+                    <h4>Sri Medha Junior College</h4>
+                    <div class="education-score">
+                        <span>CGPA: 8.3</span>
+                    </div>
                 </div>
                 
                 <div class="education-card">
-                    <div class="edu-icon">
-                        <i class="fas fa-certificate"></i>
+                    <div class="education-icon">
+                        <i class="fas fa-book"></i>
                     </div>
                     <h3>SSC</h3>
-                    <p class="institution">Ratna Techno School</p>
-                    <p class="grade">Percentage: 85%</p>
-                </div>
-            </div>
-            
-            <div class="certification">
-                <h3 class="cert-title">Certification</h3>
-                <div class="cert-card">
-                    <i class="fas fa-award"></i>
-                    <p>Association of Mutual Funds in India (AMFI)</p>
+                    <h4>Ratna Techno School</h4>
+                    <div class="education-score">
+                        <span>Percentage: 85%</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <h2 class="section-title">Professional <span>Skills</span></h2>
             <div class="skills-container">
                 <div class="skill-category">
-                    <h3>Customer Service</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Customer Support</span>
-                        <span class="skill-tag">Complaint Resolution</span>
-                        <span class="skill-tag">Relationship Management</span>
+                    <h3><i class="fas fa-users"></i> Customer & Support</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Customer Support</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Complaint Resolution</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Technical Support</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="skill-category">
-                    <h3>Operations & Analysis</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Documentation and Reporting</span>
-                        <span class="skill-tag">Quality Assurance</span>
-                        <span class="skill-tag">Research and Information Gathering</span>
+                    <h3><i class="fas fa-chart-line"></i> Business & Operations</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Documentation & Reporting</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Financial Planning</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Quality Assurance</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 87%"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="skill-category">
-                    <h3>Team & Financial</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Teamwork and Collaboration</span>
-                        <span class="skill-tag">Financial Planning</span>
-                        <span class="skill-tag">Problem Solving</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Technical</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Technical Support</span>
-                        <span class="skill-tag">CRM Systems</span>
-                        <span class="skill-tag">Analytical Tools</span>
+                    <h3><i class="fas fa-brain"></i> Interpersonal & Analytical</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Problem Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 94%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Teamwork & Collaboration</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 96%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Research & Information Gathering</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 89%"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -231,29 +323,49 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Contact Me</h2>
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
             <div class="contact-container">
                 <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>I'm open to new opportunities in the banking and financial services sector.</p>
-                    <div class="contact-details">
-                        <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> 3-49/17 Pochampally, Peddavangara, Mahabubabad - 506317</p>
-                        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> 9666066399</p>
-                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> kittugoud110597@gmail.com</p>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>9666066399</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>kittugoud110597@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Address</h4>
+                            <p>3-49/17 Pochampally, Mdl: Peddavangara<br>Dist: Mahabubabad, Pincode: 506317</p>
+                        </div>
                     </div>
                     <div class="social-links">
-                        <a href="mailto:kittugoud110597@gmail.com" class="social-icon">
+                        <a href="mailto:kittugoud110597@gmail.com" class="social-link">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <a href="tel:9666066399" class="social-icon">
+                        <a href="tel:9666066399" class="social-link">
                             <i class="fas fa-phone"></i>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="#" class="social-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="#" class="social-link">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </div>
@@ -273,7 +385,7 @@
                         <div class="form-group">
                             <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -282,13 +394,30 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2023 Variganti Harikrishna. All rights reserved.</p>
-            <p>Professional Banking Portfolio</p>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h3>Variganti Harikrishna</h3>
+                <p>Banking & Financial Services Professional</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2023 Variganti Harikrishna. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
 </html>
-
